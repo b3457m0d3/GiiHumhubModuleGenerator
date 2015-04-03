@@ -8,7 +8,7 @@ Yii::app()->moduleManager->register(array(
 	),
 	/* Events to Catch
 		'events' => array(
-			array('class' => 'TopMenuWidget', 'event' => 'onInit', 'callback' => array('GmfuModule', 'onTopMenuInit')),
+			array('class' => 'TopMenuWidget', 'event' => 'onInit', 'callback' => array('<? echo ucfirst($this->moduleID); ?>Module', 'onTopMenuInit')),
 		),
 	*/
 	)

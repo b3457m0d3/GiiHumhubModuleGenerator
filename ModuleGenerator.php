@@ -1,6 +1,6 @@
 <?php
 
-class ModuleGenerator extends CCodeGenerator
+class HHModuleGenerator extends CCodeGenerator
 {
-	public $codeModel='gii.generators.module.ModuleCode';
+	public $codeModel='gii.generators.module.HHModuleCode';
 }

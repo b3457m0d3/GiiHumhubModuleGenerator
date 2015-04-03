@@ -2,5 +2,5 @@
 
 class HHModuleGenerator extends CCodeGenerator
 {
-	public $codeModel='gii.generators.module.HHModuleCode';
+	public $codeModel='gii.generators.hhmodule.HHModuleCode';
 }

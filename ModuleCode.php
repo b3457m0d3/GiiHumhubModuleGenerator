@@ -1,6 +1,6 @@
 <?php
 
-class ModuleCode extends CCodeModel
+class HHModuleCode extends CCodeModel
 {
 	public $moduleID;
 	public $moduleName;
